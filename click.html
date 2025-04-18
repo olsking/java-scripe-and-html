@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .old{
+        height: 80px;
+        width: 50px;
+        background-color: cadetblue;
+        text-align: center;
+        border: 4px solid black;
+        border-radius: 5px;
+        margin: 10px;
+        display: inline-flex;
+    }
+    .old1{
+        height: 80px;
+        width: 50px;
+        background-color: red;
+        text-align: center;
+        border: 4px solid black;
+        border-radius: 5px;
+        margin: 10px;
+        display: inline-flex;
+    }
+    
+</style>
+
+
+
+
+<body>
+    <h1 id="para">hello boys</h1>
+    <h2 id="hi">hello girls</h2>
+
+    <div id="olk" class="old1"></div>
+    <div  class="old"></div><br><br>
+    <div  class="old"></div>
+    <div  class="old"></div>
+
+    <script>
+        var olk=document.getElementById("olk");
+        olk,addEventListener("click",ik)
+
+        function ik() {
+           alert("ok")
+        }
+    </script>
+
+
+
+
+
+
+
+    <br><br>
+
+    <button id="btnclick"onclick="click()">click me 1</button>
+    <button id="btnclick2"onclick="click()">click me 2</button><br><br>
+    <button id="btnclick3"onclick="click()">click me 3</button>
+    <button id="btnclick4"onclick="click()">click me 4</button>
+
+    <script>
+
+        // function click() {
+        //     var hellodiv=document.getElementById('old');
+        //     hellodiv[0].className='new'
+            
+        // }
+        var btnclick=document.getElementById("btnclick")
+
+        btnclick.addEventListener("mousedown",myfunction)
+
+         function myfunction() {
+            alert('hello world')
+         }
+
+         var btnclick2=document.getElementById("btnclick2")
+
+         btnclick2.addEventListener("mousedown",allfunction)
+
+         function allfunction() {
+            alert("hello everyone")
+            
+         }
+
+         var btn3=document.getElementById("btnclick3")
+
+         btn3.addEventListener("click",OWAIS)
+
+         function OWAIS() {
+            alert("OWAIS AFRIDI")
+            
+         }
+
+        
+
+     
+
+
+
+
+
+    //     function click() {
+            
+        
+    //     var para=document.getElementById('para');
+    //     var hi  =document.getElementById('hi');
+    //     console.log('hello boy');
+    //     console.log('hello girls');
+    //     para.innerText            ='hello everyone'
+    //     para.innerHTML            ='<u> hello everyone </u>'
+    //     para.style.backgroundColor='blue'
+    //     para.style.color          ='white'
+    //     para.style.textAlign      = 'center'
+    //       hi.innerText            ='my fan'
+    //       hi.innerHTML            ='<u> my fan </u>'
+    //       hi.style.backgroundColor='yellow'
+    //       hi.style.color          ='blue'
+    //       hi.style.textAlign      = 'center'
+    //     }
+        
+    //     function click() {
+    //         var hi=document.getElementById('hi')
+    //         hi.innerText    ='my fan'
+    //         hi.innerHTML    ='<u> my fan </u>' 
+            
+    //     }
+
+    // </script>
+</body>
+</html>

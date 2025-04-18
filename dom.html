@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="paragraph">paragraph</h1>
+    <h2 id="heading">heading</h2>
+    <h1 id="headingdom">heading dom</h1>
+
+
+<script>
+    var dom=document.getElementById("headingdom")
+    var para=document.getElementById("paragraph")
+    var head=document.getElementById("heading")
+
+
+    console.log("headingdom")
+    dom.style.background="yellow"
+    dom.style.textAlign="center"
+    dom.style.color="black"
+    dom.style.fontSize="50px"
+    dom.style.border="5px solid black"
+    dom.innerText=" <u> DOM HEADING </u> "
+    dom.style.borderRadius="20px"
+    dom.style.fontStyle="italic"
+    
+
+
+
+    console.log("para")
+    para.innerText="new paragraph"
+    para.style.backgroundColor='yellow'
+    para.style.color='blue'
+    para.style.textAlign='center'
+    para.style.fontStyle="italic"
+
+    console.log("head")
+    head.innerText="new heading"
+    head.style.backgroundColor='grey'
+    head.style.color='green'
+    head.style.textAlign='center'
+    head.style.fontStyle="italic"
+</script>
+
+
+
+</body>
+</html>
