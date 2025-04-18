@@ -1,15 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
 </head>
+
+<style>
+      .container{
+        display: flex;
+        height: 500px;
+        width: 100%;
+        border: 10px solid green;
+        flex-wrap: nowrap;
+        align-content: space-around;
+
+      }
+      .item{
+        height: 70px;
+        width: 75px;
+        border: 3px solid black;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+        margin: 10px;
+        color: white;
+        background-color: rgb(5, 5, 5);
+        font-weight: bold;
+        
+      }
+      #ok{
+        order: 9;
+        
+      }
+     #k{
+        order: 3;
+     }
+</style>
+
 <body>
-   <h1>Lorem ipsum dolor sit amet.</h1>
-   <br>
-   <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt iste ipsum beatae numquam nobis labore asperiores minima voluptatum quasi.</h3>
-   <hr>
-   <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deleniti facilis praesentium perferendis ipsum alias eos facere iure reiciendis? Esse.</h3>
+
+
+<div class="container">
+
+    <div class="item" id="ok">owais</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item" id="k">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+    <div class="item">10</div>
+
+</div>
+
+
 </body>
 </html>
